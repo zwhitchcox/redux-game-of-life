@@ -1,5 +1,5 @@
-import { TICK, TOGGLE, CLEAR, RANDOM } from '../constants/ActionTypes';
-import { makeGrid, makeBlankGrid } from '../lib/grid';
+import * from '../constants/ActionTypes';
+import * from '../lib/grid';
 import { nextState, toggle } from '../lib/game';
 
 const GRID_SIZE = 30;
